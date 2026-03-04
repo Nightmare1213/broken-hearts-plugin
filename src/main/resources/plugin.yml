@@ -1,0 +1,14 @@
+name: BrokenHearts
+version: 1.0.0
+main: com.example.brokenhearts.BrokenHeartsPlugin
+api-version: '1.21'
+author: Codex
+commands:
+  heart:
+    description: Give and manage equippable hearts.
+    usage: /heart give <flame|swift|stone|night|vampiric|thunder|frost|dragon|warden|wither>
+    permission: brokenhearts.heart
+permissions:
+  brokenhearts.heart:
+    description: Allows using /heart command.
+    default: op
